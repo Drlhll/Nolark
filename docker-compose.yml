@@ -1,0 +1,30 @@
+version: '3'
+services: 
+  # base de données MariaDB
+  servbdd: 
+    image: mariadb
+    volumes:
+      - c:\www\html\nolark-bdd:/var/lib/mysql 
+    environment:
+      MARIADB_ROOT_PASSWORD: passwordmariadb
+
+  # site Web phpmyadmin
+  phpmyadmin: 
+    image: phpmyadmin
+    depends_on:
+      - servbdd
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: servbdd
+
+  # site Web 
+  servweb: 
+    image: ctecher/php-mariadb
+    depends_on:
+      - servbdd
+    ports:
+      - 8001:80
+    volumes:
+      - c:\www\html\nolark:/var/www/html  
+      - c:\www\html\nolark_logs:/var/log/apache2

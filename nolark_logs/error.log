@@ -1,0 +1,25 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 25 13:00:21.584445 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/8.1.16 configured -- resuming normal operations
+[Tue Apr 25 13:00:21.585264 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 25 13:06:12.700144 2023] [php:notice] [pid 22] [client 172.19.0.1:53518] SQLSTATE[HY000] [2002] Connection refused, referer: http://localhost:8001/
+[Tue Apr 25 13:07:29.341507 2023] [php:notice] [pid 25] [client 172.19.0.1:38878] SQLSTATE[HY000] [1045] Access denied for user 'nolarkuser'@'172.19.0.4' (using password: YES), referer: http://localhost:8001/
+[Tue Apr 25 13:07:31.397419 2023] [php:notice] [pid 25] [client 172.19.0.1:38878] SQLSTATE[HY000] [1045] Access denied for user 'nolarkuser'@'172.19.0.4' (using password: YES), referer: http://localhost:8001/
+[Tue Apr 25 13:07:31.568603 2023] [php:notice] [pid 25] [client 172.19.0.1:38878] SQLSTATE[HY000] [1045] Access denied for user 'nolarkuser'@'172.19.0.4' (using password: YES), referer: http://localhost:8001/
+[Tue Apr 25 13:07:44.304899 2023] [php:notice] [pid 26] [client 172.19.0.1:38884] SQLSTATE[HY000] [1045] Access denied for user 'nolarkuser'@'172.19.0.4' (using password: YES), referer: http://localhost:8001/
+[Tue Apr 25 13:07:45.823359 2023] [php:notice] [pid 26] [client 172.19.0.1:38884] SQLSTATE[HY000] [1045] Access denied for user 'nolarkuser'@'172.19.0.4' (using password: YES), referer: http://localhost:8001/pages/route.php
+[Tue Apr 25 13:07:47.976945 2023] [php:notice] [pid 26] [client 172.19.0.1:38884] SQLSTATE[HY000] [1045] Access denied for user 'nolarkuser'@'172.19.0.4' (using password: YES), referer: http://localhost:8001/pages/cross.php
+[Tue Apr 25 13:08:06.254638 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 25 13:08:14.678005 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/8.1.16 configured -- resuming normal operations
+[Tue Apr 25 13:08:14.678736 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 25 13:08:17.856354 2023] [php:notice] [pid 18] [client 172.20.0.1:53514] SQLSTATE[HY000] [1045] Access denied for user 'nolarkuser'@'172.20.0.4' (using password: YES), referer: http://localhost:8001/pages/nous-contacter.php
+[Tue Apr 25 13:08:19.663981 2023] [php:notice] [pid 18] [client 172.20.0.1:53514] SQLSTATE[HY000] [1045] Access denied for user 'nolarkuser'@'172.20.0.4' (using password: YES), referer: http://localhost:8001/pages/nous-contacter.php
+[Tue Apr 25 13:52:34.143432 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 26 13:39:15.451942 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/8.1.16 configured -- resuming normal operations
+[Wed Apr 26 13:39:15.453067 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Apr 26 13:43:23.227531 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon May 22 09:13:01.234105 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/8.1.16 configured -- resuming normal operations
+[Mon May 22 09:13:01.234788 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
